@@ -20,7 +20,7 @@ enableGitInfo = true
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
-defaultContentLanguage = 'de'
+defaultContentLanguage = 'de-de'
 
 [languages]
 [languages.de]
@@ -31,7 +31,7 @@ defaultContentLanguage = 'de'
 
 [languages.en]
   languageName = 'English'
-  languageCode = "en-gb"
+  languageCode = "en-us"
   contentDir = 'content/en'
   weight = 2
 
