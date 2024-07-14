@@ -1,6 +1,6 @@
 # hugo server --minify --themesDir ../.. --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
-baseURL = 'https://hugo.trolug.de/'
+baseURL = 'https://trolug.de/'
 title = 'TroLUG'
 theme = 'hugo-book'
 
@@ -20,6 +20,8 @@ enableGitInfo = true
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
+defaultContentLanguage = 'de'
+
 [languages]
 
 [languages.de]
@@ -39,6 +41,8 @@ enableGitInfo = true
   name = "Github"
   url = "https://github.com/TroLUG/trolug-hugo"
   weight = 10
+
+
 
 
 [params]

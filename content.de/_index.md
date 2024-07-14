@@ -16,5 +16,5 @@ Teilnehmen kann man auch ohne AWO Mitgliedschaft, eine Mitgliedschaft unterstüt
 Unsere Treffen beginnen jeweils am ersten Donnerstag eines Monats um 19:00 Uhr.
 Online Treffen wir uns per Videokonferenz. Bei Präsenztreffen sind wir im Agnes Klein Zentrum der Arbeiterwohlfahrt in Troisdorf.
 
-Wir tauschen uns auf einer Mailingliste und per Chat aus.
+Wir tauschen uns auf einer Mailingliste, per Chat und auf {{< mastodonverification >}} aus.
 
