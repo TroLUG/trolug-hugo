@@ -4,6 +4,9 @@ baseURL = 'https://trolug.de/'
 title = 'TroLUG'
 theme = 'hugo-book'
 
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = true
+
 # Book configuration
 disablePathToLower = true
 enableGitInfo = true
@@ -20,18 +23,17 @@ enableGitInfo = true
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
-defaultContentLanguage = 'de-de'
 
 [languages]
 [languages.de]
    languageName = 'German'
-   languageCode = "de-de"
+   languageCode = "de"
    contentDir = 'content/de'
   weight = 1
 
 [languages.en]
   languageName = 'English'
-  languageCode = "en-us"
+  languageCode = "en"
   contentDir = 'content/en'
   weight = 2
 
