@@ -1,0 +1,16 @@
+{
+   "date": "2024-07-13",
+   "title": "Termine",
+   "menu": "main",
+   "taxonomies": {
+        "category": "Workshop",
+        "tag": "Termine"
+    }
+}
+
+# TroLUG Termine
+
+INSERT_EVENTS_HERE
+
+Schritt für Schritt werden hier unsere Termine hin migriert.
+Die [alte, mit Nikola gebaute Webseite](http://nikola.trolug.de/) ist auch noch online.
