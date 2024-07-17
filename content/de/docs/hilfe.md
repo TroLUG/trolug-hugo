@@ -1,5 +1,5 @@
 +++
-title = "Unterstützung bei Fragen rund um Linux"
+title = "Hilfe"
 date = "2024-07-13"
 menu = "main"
 slug = "hilfe"

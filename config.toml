@@ -11,6 +11,9 @@ defaultContentLanguageInSubdir = true
 disablePathToLower = true
 enableGitInfo = true
 
+
+enableRobotsTXT = true
+
 # Needed for mermaid/katex shortcodes
 [markup]
 [markup.goldmark.renderer]
