@@ -120,7 +120,7 @@ for myfile in myfilelist:
     data.append(row)
     
 df = pd.DataFrame(data, columns=['meetingdate', 'eventtype','location', 'title', 'slug', 'presenter', 'pad'])
-df = df.sort_values(by='meetingdate')
+df = df.sort_values(by='meetingdate', ascending=[False])
 
 df = add_ical_link_column(ics_dir, df)
 
@@ -133,26 +133,20 @@ df["padlink"] = '[pad](' + df["pad"] + ')'
 
 mydf = df[["mdcalendar", "presenter", "titlelink", "padlink"]]
 mydf.rename(columns={'mdcalendar': 'Termin', 'presenter': 'Presenter', 'titlelink': 'Thema', 'padlink': 'Pad'}, inplace=True)
-# df['newcolumn'] = df.apply(lambda x: fxy(x['A'], x['B']), axis=1)
 df.apply(lambda x: create_ical_event(ics_dir, x['meetingdate'], x['title']), axis=1)
 
 
-# = df['data'].astype(str)
-#create_ical_event
-#icaldir, rfc_time_str, summary
-
 markdown_table = mydf.to_markdown(index=False)
 
-# Thanks to Jack Aidley in https://stackoverflow.com/a/17141572/1749675
-# Read in the file
+"""
+Thanks to Jack Aidley in https://stackoverflow.com/a/17141572/1749675
+for the snippet to insert a text block into a file
+"""
 with open(template_file, 'r') as file:
   filedata = file.read()
 
-# Replace the target string
 filedata = filedata.replace('INSERT_EVENTS_HERE', markdown_table)
 
-
-# Write the file out again
 with open(output_file, 'w') as file:
   file.write(filedata)
 
