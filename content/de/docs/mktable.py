@@ -120,7 +120,7 @@ for myfile in myfilelist:
     data.append(row)
     
 df = pd.DataFrame(data, columns=['meetingdate', 'eventtype','location', 'title', 'slug', 'presenter', 'pad'])
-df = df.sort_values(by='meetingdate', ascending=[False])
+df.sort_values(by='meetingdate', inplace=True, ascending=False)
 
 df = add_ical_link_column(ics_dir, df)
 
