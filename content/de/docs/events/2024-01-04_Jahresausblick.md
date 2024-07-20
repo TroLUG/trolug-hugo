@@ -1,6 +1,6 @@
 {
    "date": "2024-07-10",
-   "meetingdate": "2024-01-04",
+   "meetingdate": "2024-01-04T19:00+01:00",
    "presenter": "Alle",
    "title": "Jahresausblick",
    "slug": "2024-01-04_Jahresausblick",

@@ -1,6 +1,6 @@
 {
    "date": "2023-08-01",
-   "meetingdate": "2024-08-01",
+   "meetingdate": "2024-08-01T19:00+02:00",
    "presenter": "Alle",
    "title": "FrOSCon Planung",
    "slug": "2024-08-01_FrOSCon_Planung",
