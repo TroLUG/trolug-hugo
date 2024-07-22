@@ -9,7 +9,7 @@ Die TroLUG (Troisdorfer Linux User Group) ist ein Club der Arbeiterwohlfahrt Tro
 
 Teilnehmen kann man auch ohne AWO Mitgliedschaft, eine Mitgliedschaft unterstützt die Arbeit jedoch.
 
-![Ein hungriger Pinguin möchte gerne einen Fisch. Ein freundlicher Pinguin kommt mit einer Angel hinzu und gibt ihm keinen Fisch, sondern bringt ihm Angeln bei](/louis_fisch.png)
+![Ein hungriger Pinguin möchte gerne einen Fisch. Ein freundlicher Pinguin kommt mit einer Angel hinzu und gibt ihm keinen Fisch, sondern bringt ihm Angeln bei](/louis/louis_fisch.png)
 
 ## Mitmachen
 
