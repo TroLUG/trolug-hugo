@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Die Troisdorfer Linux User Group
 type: docs
 ---
 

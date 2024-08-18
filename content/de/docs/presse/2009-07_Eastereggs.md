@@ -1,7 +1,7 @@
 {
    "date": "2009-07-21",
    "title": "Linux machts möglich: Ostereier im Juli",
-   "slug": "2023-08-03_CrowdSec",
+   "slug": "2009-07-21_Eastereggs",
    "menu": "main"
 }
 
