@@ -35,6 +35,7 @@ def create_ical_event(icaldir, rfc_time_str, summary, presenter, mylocation):
     event = Event()
     event.add('summary', '[TroLUG] ' + summary + ' (' + presenter + ')' )
     event.add('location', mylocation)
+    event.add('description', 'Konferenzserver: https://bbb.trolug.de')
     event.add('dtstart', event_datetime)
     event.add('dtend', event_datetime + timedelta(hours=2))
     event.add('dtstamp', datetime.now(pytz.utc))
