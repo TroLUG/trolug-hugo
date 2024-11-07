@@ -21,7 +21,7 @@ import pytz
 # def getyear(time_str)
 
 
-def create_ical_event(icaldir, rfc_time_str, summary):
+def create_ical_event(icaldir, rfc_time_str, summary, presenter):
     """
     usage: 
     create_ical_event(ics_dir, '2024-07-19T19:00+02:00', 'Workshop')
@@ -33,7 +33,7 @@ def create_ical_event(icaldir, rfc_time_str, summary):
 
     cal = Calendar()
     event = Event()
-    event.add('summary', '[TroLUG] ' + summary)
+    event.add('summary', '[TroLUG] ' + summary + ' (' + presenter + ')' )
     event.add('dtstart', event_datetime)
     event.add('dtend', event_datetime + timedelta(hours=2))
     event.add('dtstamp', datetime.now(pytz.utc))
@@ -133,7 +133,7 @@ df["padlink"] = '[pad](' + df["pad"] + ')'
 
 mydf = df[["mdcalendar", "presenter", "titlelink", "padlink"]]
 mydf.rename(columns={'mdcalendar': 'Termin', 'presenter': 'Presenter', 'titlelink': 'Thema', 'padlink': 'Pad'}, inplace=True)
-df.apply(lambda x: create_ical_event(ics_dir, x['meetingdate'], x['title']), axis=1)
+df.apply(lambda x: create_ical_event(ics_dir, x['meetingdate'], x['title'], x['presenter']), axis=1)
 
 
 markdown_table = mydf.to_markdown(index=False)
