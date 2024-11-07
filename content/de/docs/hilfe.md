@@ -1,10 +1,8 @@
 +++
 title = "Hilfe"
-date = "2024-07-13"
 menu = "main"
 slug = "hilfe"
 +++
-
 
 ## Welche Linux Distribution ist das richtige für mich?
 Für Neueinsteiger ist es hilfreich eine der am meisten verbreiteten Distributionen zu installieren,
