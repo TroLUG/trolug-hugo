@@ -33,7 +33,7 @@ def create_ical_event(icaldir, rfc_time_str, summary):
 
     cal = Calendar()
     event = Event()
-    event.add('summary', summary)
+    event.add('summary', '[TroLUG] ' + summary)
     event.add('dtstart', event_datetime)
     event.add('dtend', event_datetime + timedelta(hours=2))
     event.add('dtstamp', datetime.now(pytz.utc))
