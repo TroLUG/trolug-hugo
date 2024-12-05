@@ -13,6 +13,7 @@
 
 | Termin                                              | Presenter          | Thema                                                                                 | Pad                                       |
 |:----------------------------------------------------|:-------------------|:--------------------------------------------------------------------------------------|:------------------------------------------|
+| [2025-01-16T19:00+01:00](/ics/2025-01-16T1800Z.ics) | Harald Weidner     | [Monitoring mit checkmk]({{< ref "2025-01-16_checkmk" >}})                            | [pad](https://trolug.pads.ccc.de/2025-01) |
 | [2024-12-05T19:00+01:00](/ics/2024-12-05T1800Z.ics) | Alle               | [Lieblingstools unter Linux]({{< ref "2024-12-05_Tools" >}})                          | [pad](https://trolug.pads.ccc.de/2024-12) |
 | [2024-11-07T19:00+01:00](/ics/2024-11-07T1800Z.ics) | Alle               | [Homepage Hackathon]({{< ref "2024-11-07_Homepage" >}})                               | [pad](https://trolug.pads.ccc.de/2024-11) |
 | [2024-10-24T19:00+01:00](/ics/2024-10-24T1800Z.ics) | Harald Weidner     | [Proxmox]({{< ref "2024-10-24_Proxmox" >}})                                           | [pad](https://trolug.pads.ccc.de/2024-10) |
