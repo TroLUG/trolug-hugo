@@ -13,13 +13,17 @@
 
 | Termin                                              | Presenter          | Thema                                                                                          | Pad                                       |
 |:----------------------------------------------------|:-------------------|:-----------------------------------------------------------------------------------------------|:------------------------------------------|
+| [2025-12-04T19:00+01:00](/ics/2025-12-04T1800Z.ics) | Alle               | [Thema siehe Pad]({{< ref "2025-12-04_TroLUG" >}})                                             | [pad](https://trolug.pads.ccc.de/2025-12) |
+| [2025-11-06T19:00+01:00](/ics/2025-11-06T1800Z.ics) | Alle               | [Thema siehe Pad]({{< ref "2025-11-06_TroLUG" >}})                                             | [pad](https://trolug.pads.ccc.de/2025-11) |
+| [2025-10-02T19:00+02:00](/ics/2025-10-02T1700Z.ics) | Alle               | [Thema siehe Pad]({{< ref "2025-10-02_TroLUG" >}})                                             | [pad](https://trolug.pads.ccc.de/2025-10) |
+| [2025-09-04T19:00+02:00](/ics/2025-09-04T1700Z.ics) | Alle               | [Thema siehe Pad]({{< ref "2025-09-04_TroLUG" >}})                                             | [pad](https://trolug.pads.ccc.de/2025-09) |
 | [2025-08-17T19:00+02:00](/ics/2025-08-17T1700Z.ics) | Alle               | [FrOSCon Sonntag]({{< ref "2025-08-17_froscon" >}})                                            | [pad](https://trolug.pads.ccc.de/2025-08) |
 | [2025-08-16T19:00+02:00](/ics/2025-08-16T1700Z.ics) | Alle               | [FrOSCon Samstag]({{< ref "2025-08-16_froscon" >}})                                            | [pad](https://trolug.pads.ccc.de/2025-08) |
 | [2025-08-07T19:00+02:00](/ics/2025-08-07T1700Z.ics) | Alle               | [Aktuelle Fragen]({{< ref "2025-08-07_fragen" >}})                                             | [pad](https://trolug.pads.ccc.de/2025-08) |
 | [2025-07-03T19:00+02:00](/ics/2025-07-03T1700Z.ics) | Alle               | [FrOSCon vorbereiten]({{< ref "2025-07-03_froscon" >}})                                        | [pad](https://trolug.pads.ccc.de/2025-07) |
 | [2025-06-05T19:00+02:00](/ics/2025-06-05T1700Z.ics) | Alle               | [Freie Software fürs Smartphone]({{< ref "2025-06-05_smartphone" >}})                          | [pad](https://trolug.pads.ccc.de/2025-06) |
 | [2025-05-08T19:00+02:00](/ics/2025-05-08T1700Z.ics) | Jan Grosser        | [Nextcloud]({{< ref "2025-05-08_nextcloud" >}})                                                | [pad](https://trolug.pads.ccc.de/2025-05) |
-| [2025-04-03T19:00+02:00](/ics/2025-04-03T1700Z.ics) | Michael Dupret     | [Videostreams konvertieren und schneiden]({{< ref "2025-04-03_videoschnitt" >}})               | [pad](https://trolug.pads.ccc.de/2025-04) |
+| [2025-04-10T19:00+02:00](/ics/2025-04-10T1700Z.ics) | Michael Dupret     | [Videostreams konvertieren und schneiden]({{< ref "2025-04-10_videoschnitt" >}})               | [pad](https://trolug.pads.ccc.de/2025-04) |
 | [2025-03-06T19:00+01:00](/ics/2025-03-06T1800Z.ics) | Thorsten Kern      | [Remotezugriff aufs Heimnetz]({{< ref "2025-03-06_remote" >}})                                 | [pad](https://trolug.pads.ccc.de/2025-03) |
 | [2025-02-06T19:00+01:00](/ics/2025-02-06T1800Z.ics) | Alle               | [Quo vadis TroLUG? Recap checkmk und Heimautomatisierung]({{< ref "2025-02-06_Evaluation" >}}) | [pad](https://trolug.pads.ccc.de/2025-02) |
 | [2025-01-16T19:00+01:00](/ics/2025-01-16T1800Z.ics) | Harald Weidner     | [Monitoring mit checkmk]({{< ref "2025-01-16_checkmk" >}})                                     | [pad](https://trolug.pads.ccc.de/2025-01) |
